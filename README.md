@@ -1,6 +1,6 @@
 # Fast API Playground
 
-Hello world server
+Upload image to unicorn server
 
 ### To run locally
 
@@ -19,4 +19,17 @@ run uvicorn server
 
 ```commandline
 uvicorn main:app --reload
+```
+
+## Run tests 
+
+install pytest
+
+```commandline
+pip install pytest
+```
+
+launch tests
+```commandline
+pytest main.py
 ```
